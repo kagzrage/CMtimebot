@@ -25,7 +25,6 @@ module.exports = {
 	 * @default "InsertYourTokenHere"
 	 * @type string
 	 */
-	token:"NzEwNDUwNjU4NzcxNDY4Mzg4.Xr0o1w.CVEUCYXdlq8oTQZQ09FTXswgKpg",
 	/** 
 	 * @desc Global bot response heading
 	 * @default "\uD83D\uDD52 Discord Time Bot"
@@ -33,3 +32,4 @@ module.exports = {
 	 */
 	title: " Cosmic Time Bot"
 };
+bot.login(process.env.token);
