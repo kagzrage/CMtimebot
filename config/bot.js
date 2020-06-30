@@ -13,7 +13,7 @@ module.exports = {
 	 * @default "MyTimeBot"
 	 * @type string
 	 */
-	name: "Cosmic Time Bot",
+	name: "Creative Masters Asia Time Bot",
 	/**
 	 * @desc Global bot command prefix
 	 * @default "?"
@@ -30,6 +30,6 @@ module.exports = {
 	 * @default "\uD83D\uDD52 Discord Time Bot"
 	 * @type string
 	 */
-	title: " Cosmic Time Bot"
+	title: " Creative Masters Asia Time Bot"
 };
 bot.login(process.env.token);
